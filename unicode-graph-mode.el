@@ -21,7 +21,7 @@
   :group 'unicode-graph-mode)
 
 (defvar unicode-graph-font-lock-keywords
-  `(("[┌─┐│└┄┄┘┬┴├┼┤]" . 'unicode-graph-rectangle-face)
+  `(("[┌─┐│┊└┄┄┘┬┴├┼┤]" . 'unicode-graph-rectangle-face)
     ("[ ─┄┄\n]\\(/\\)[ ─┄┄\n]" . (1 'unicode-graph-rectangle-face))
     ("[ ─┄┄\n]\\([\\]\\)[ ─┄┄\n]" . (1 'unicode-graph-rectangle-face))
     ("[ ─┄┄\n]\\(v\\)[ ─┄┄\n]" . (1 'unicode-graph-rectangle-face))
